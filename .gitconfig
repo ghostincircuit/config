@@ -1,0 +1,9 @@
+[user]
+	name = ghostincircuit
+	email = ghostincircuit@gmail.com
+[alias]
+	co = checkout
+	st = status
+	br = branch
+[core]
+	editor = vim

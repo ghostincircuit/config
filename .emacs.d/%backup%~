@@ -1,0 +1,100 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,roman]{moderncv}
+\usepackage[adobefonts]{ctex}
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{purple}
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+% personal data
+\name{Lingxuan Deng}{}
+\title{resume}
+\phone[mobile]{18046522147}
+\address{nanertiao}{Haidian District}{Beijing}
+\email{ghostincircuit@gmail.com}
+\photo[64pt][0.4pt]{me.jpg}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{education}
+\cventry{2008.9--2012.7}{undergraduate school}{Huazhong University of Science and Technology}{Wuhan}{}{major: automation(GPA:88/100)\newline{}major courses: feedback thoery, computer orgnization, digital circuit, computer network}
+\cventry{2012.9--now}{graduate school}{}{Beijing}{}{major: computer application\newline{}major courses: computer architecture, GPGPU programming, ASIC design}
+
+
+\section{awards}
+\cvitemwithcomment{2008.9-2009.9}{major award}{}
+\cvitemwithcomment{2009.9-2010.9}{three good student student award}{}
+
+
+\section{experience}
+\cventry{2011.10--2011.6}{programmer}{HUST ABU robot team}{Wuhan}{}{
+  assisting robot programming and developing supporting technology
+  \begin{itemize}
+  \item improved omnidirectional wheel locating program to make it more robust
+  \item developed mechanism for wireless online parameter modifying and monitoring
+  \item porting UCOS3 RTOS onto new ARM9 based control board
+  \end{itemize}
+}
+
+\cventry{2011.12--2012.8}{software engineer}{AndesTech}{Wuhan}{}{
+  developing zigbee wireless network stack on Andes SOC platform
+  \begin{itemize}
+  \item porting freakz and claridy(2 opensource zigbee implementation) on to Andes platform
+  \item writing network simulator for high level testing
+  \item developing BSP and drivers
+  \item debugging and fixing MAC layer logic
+  \end{itemize}
+}
+
+\cventry{2013.8--2012.11}{graduate student}{Chinese Academy of Science, National Space Science Center(NSSC)}{}{}{
+  developing a chip testing system
+  \begin{itemize}
+  \item designing corresponding software, hardware and firmware
+  \item contact various people to finsh purchasing, board assembling, final deployment
+  \end{itemize}
+}
+
+\cventry{2013.8--2014.2}{graduate student}{NSSC}{}{}{
+  developing avionic data multiplexing unit, my master degree topic
+  \begin{itemize}
+  \item developing fine granulity dynamic channel scheduling
+  \item developing DDR memory controller
+  \item achieved an average throughput of 1.2Gbps with low performance spacecraft level devices
+  \end{itemize}
+}
+
+\cventry{2014.3--now}{graduate student}{NSSC}{}{}{
+  developing redundant arithmetic based CORDIC co-processor for navigation computer
+  \begin{itemize}
+  \item I proposed a method to allow redundant arithmetic to be used in all modes of CORDIC calculation
+  \item developed C++ model for testing and accuracy estimating
+  \item got 1-2 times computation throughput increase compared with conventional method
+  \end{itemize}
+}
+
+
+\section{skills}
+\cvitemwithcomment{C/C++}{}{familiar with STL, C++ OO mechanism}
+\cvitemwithcomment{python}{}{used python to develop several application programs}
+\cvitemwithcomment{linux}{}{familiar with linux internals, use linux on my personal computer}
+
+\section{language}
+\cvitemwithcomment{English}{}{TOEFL:111}
+
+\end{document}
+
+
+%% end of file `template.tex'.

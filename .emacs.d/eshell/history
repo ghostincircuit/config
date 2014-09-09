@@ -1,0 +1,71 @@
+ls
+pwd
+3+4
+3+4
+echo $LANG
+exit
+echo $LC_CTYPE
+locale
+locale -a
+locale
+locale
+locale
+man systemctl
+info systemcmd
+ls
+hisotry
+history
+man history
+info systemctl
+exit
+wc TheLetter.txt 
+wc -n TheLetter.txt 
+man wc
+wc -w TheLetter.txt 
+ls
+cd ..
+ls
+find . -name '*verilog*' .
+find . -name '*verilog*'
+cp lisp/progmodes/verilog-mode.el.gz /tmp/
+cd /tmp/
+ls
+gunzip verilog-mode.el.gz 
+ls
+ls
+exit
+git st
+git add .
+git st
+git rm -r --cached
+git rm -r --cached
+git rm -r --cached *~
+git st
+git rm -r --cached *.html~
+git rm -r --cached */*.html~
+git st
+vi .gitignore
+git st
+git add .gitignore
+git commit
+ls
+make tutorial01_first_window
+ls
+./tutorial01_first_window 
+exit
+mv 1st.cpp 2nd.cpp
+ls
+exit
+pdb
+ls
+pdb cordic_max_sim.py
+pdb cordic_max_sim
+make
+ls
+make crazy_row.exe
+make crazy_row.exe
+make crazy_row.exe
+make crazy_row.exe
+make crazy_row.exe
+exitcrazy_row.cpp:36:25: 错误：expected ‘;’ before ‘}’ token
+exit
